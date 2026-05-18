@@ -1,0 +1,31 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.map
+*.o
+
+# Arduino IDE temp files
+*.bak
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Compiled APK (optional - keep if you want users to download directly)
+# *.apk
+
+# Node / npm (if any tooling used)
+node_modules/
